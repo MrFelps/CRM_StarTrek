@@ -1,0 +1,26 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (contém chaves de API)
+.env
+.env.local
+.env.production
+
+# Build do client
+client/dist/
+
+# Logs
+*.log
+debug_tray.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Gemini/Antigravity local
+.gemini/

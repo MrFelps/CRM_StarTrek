@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FUNDO FOSCO TRANSLÚCIDO CINZA DARK (SEM AZULADO) */
+.frosted-window {
+  background: rgba(20, 20, 22, 0.94);
+  backdrop-filter: blur(40px) saturate(110%);
+  -webkit-backdrop-filter: blur(40px) saturate(110%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
+}
+
+/* CARDS EM TONS DE CINZA COM DETALHES ESBRANQUIÇADOS */
+.minimal-card {
+  background: rgba(36, 36, 40, 0.65);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+  cursor: grab;
+}
+
+.minimal-card:hover {
+  background: rgba(48, 48, 54, 0.85);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.minimal-card:active {
+  cursor: grabbing;
+}
+
+/* ÁREA DE SOLTURA DO DRAG AND DROP */
+.drop-zone {
+  transition: background 0.2s ease, border-color 0.2s ease;
+  min-height: 80px;
+}
+
+.drop-zone.drag-over {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  border-style: dashed !important;
+}
+
+/* CARD SENDO ARRASTADO */
+.dragging {
+  opacity: 0.35;
+  transform: scale(0.98);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.22);
+}

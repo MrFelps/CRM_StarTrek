@@ -1,0 +1,1005 @@
+{
+  "companies": [
+    {
+      "id": "comp-1",
+      "name": "Transportadora Rápido Sol",
+      "cnpj": "34.567.890/0001-12",
+      "fleetCount": 42,
+      "fleetType": "Caminhões e Cavalos Mecânicos",
+      "email": "financeiro@rapidosol.com.br",
+      "whatsapp": "(11) 98765-4321",
+      "routineSchedule": "Toda 2ª às 08h"
+    },
+    {
+      "id": "comp-2",
+      "name": "Logística & Cargas Brasil",
+      "cnpj": "12.890.123/0001-45",
+      "fleetCount": 78,
+      "fleetType": "Carretas e VUCs",
+      "email": "operacao@logbrasil.com.br",
+      "whatsapp": "(11) 97654-3210",
+      "routineSchedule": "Todo dia 10"
+    },
+    {
+      "id": "comp-3",
+      "name": "Locadora Prime Motors",
+      "cnpj": "08.123.456/0001-99",
+      "fleetCount": 110,
+      "fleetType": "Veículos Leves e Utilitários",
+      "email": "frota@primemotors.com.br",
+      "whatsapp": "(11) 96543-2109",
+      "routineSchedule": "Quinzenal"
+    },
+    {
+      "id": "comp-1789055802937",
+      "name": "Expresso RodoLog",
+      "vehiclesCount": 55,
+      "cnpj": "",
+      "fleetType": "Frota Geral",
+      "email": "",
+      "routineSchedule": "Semanal"
+    },
+    {
+      "id": "comp-1789055897587",
+      "name": "Expresso RodoLog",
+      "vehiclesCount": 55,
+      "cnpj": "",
+      "fleetType": "Frota Geral",
+      "email": "",
+      "routineSchedule": "Semanal"
+    },
+    {
+      "id": "comp-1789056231569",
+      "name": "Expresso RodoLog",
+      "vehiclesCount": 55,
+      "cnpj": "",
+      "fleetType": "Frota Geral",
+      "email": "",
+      "routineSchedule": "Semanal"
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-1",
+      "companyId": "comp-1",
+      "category": "Multas",
+      "title": "Captura periódica de multas (Detran/Renainf)",
+      "stage": "Aguardando Retorno",
+      "frequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "notes": "Acompanhar e levantar novos débitos inclusos nas assinaturas para envio dos comunicados ou pagamento.",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Consultar autuações no Detran-SP e PRF",
+          "done": true
+        },
+        {
+          "id": 2,
+          "text": "Levantar guias com 20% de desconto pelo SNE",
+          "done": true
+        },
+        {
+          "id": 3,
+          "text": "Enviar e-mail formal com prazo de retorno ao cliente",
+          "done": true
+        }
+      ],
+      "pendingReturn": false
+    },
+    {
+      "id": "card-2",
+      "companyId": "comp-1",
+      "category": "Indicação de Condutor",
+      "title": "Indicação de condutor dentro do prazo legal",
+      "stage": "Em Andamento",
+      "frequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09/2026",
+      "notes": "2 motoristas notificados para assinar o formulário antes de vencer.",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Identificar infrações de trânsito que pontuam CNH",
+          "done": true
+        },
+        {
+          "id": 2,
+          "text": "Emitir formulário oficial de indicação",
+          "done": true
+        },
+        {
+          "id": 3,
+          "text": "Coletar assinatura do motorista e enviar ao Detran",
+          "done": false
+        }
+      ],
+      "pendingReturn": true
+    },
+    {
+      "id": "card-3",
+      "companyId": "comp-1",
+      "category": "CNH",
+      "title": "Solicitação de CNH e CRLVs atualizados",
+      "stage": "Aguardando Retorno",
+      "frequency": "Por manutenção",
+      "responsible": "Isabella Passos",
+      "returnDeadline": "14/09 às 17h",
+      "notes": "Notificado via e-mail e WhatsApp. Aguardando envio dos documentos dos 3 novos motoristas.",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Enviar solicitação formal ao departamento de RH",
+          "done": true
+        },
+        {
+          "id": 2,
+          "text": "Aguardar retorno dos documentos atualizados",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Atualizar prontuário na plataforma",
+          "done": false
+        }
+      ],
+      "pendingReturn": true
+    },
+    {
+      "id": "card-4",
+      "companyId": "comp-1",
+      "category": "Licenciamento",
+      "title": "Verificação de débitos que travam o licenciamento",
+      "stage": "Finalizados",
+      "frequency": "Mensal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "07/10/2026",
+      "notes": "Todas as taxas e IPVA pagos. CRLV emitido com sucesso.",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Checar IPVA, DPVAT e multas em aberto",
+          "done": true
+        },
+        {
+          "id": 2,
+          "text": "Emitir guias DAE",
+          "done": true
+        },
+        {
+          "id": 3,
+          "text": "Disponibilizar CRLV-e no portal",
+          "done": true
+        }
+      ],
+      "pendingReturn": false
+    },
+    {
+      "id": "card-5",
+      "companyId": "comp-2",
+      "category": "Cronotacógrafo",
+      "title": "Validade de aferição dos tacógrafos da frota",
+      "stage": "A Fazer",
+      "frequency": "Mensal",
+      "responsible": "Isabella Passos",
+      "returnDeadline": "18/09/2026",
+      "notes": "Verificar certificados de ensaio metrológico dos 78 caminhões.",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Consultar portal cronotacografo.inmetro.gov.br",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Listar certificados a vencer em até 30 dias",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Agendar ensaio metrológico nos postos credenciados",
+          "done": false
+        }
+      ],
+      "pendingReturn": false
+    },
+    {
+      "id": "card-6",
+      "companyId": "comp-2",
+      "category": "Pagamentos",
+      "title": "Execução de pagamentos de multas aprovadas",
+      "stage": "Em Andamento",
+      "frequency": "Diária",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "Hoje às 16h",
+      "notes": "Lote de 4 guias com vencimento hoje com 20% de desconto.",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Validar aprovação do financeiro",
+          "done": true
+        },
+        {
+          "id": 2,
+          "text": "Efetuar pagamento via código de barras/PIX",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Anexar comprovantes na pasta da empresa",
+          "done": false
+        }
+      ],
+      "pendingReturn": false
+    },
+    {
+      "id": "card-7",
+      "companyId": "comp-2",
+      "category": "Indicação de Condutor",
+      "title": "2 formulários de indicação com motoristas",
+      "stage": "Aguardando Retorno",
+      "frequency": "Semanal",
+      "responsible": "Isabella Passos",
+      "returnDeadline": "14/09 às 18h",
+      "notes": "Motoristas em viagem com formulários físicos para assinar.",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Enviar formulários via aplicativo",
+          "done": true
+        },
+        {
+          "id": 2,
+          "text": "Aguardar foto do documento assinado",
+          "done": false
+        }
+      ],
+      "pendingReturn": true
+    },
+    {
+      "id": "card-1789055802938-h89t",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055802937",
+      "category": "Indicação de Condutor",
+      "title": "Verificação de multas pendentes de indicação dentro do prazo legal",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "7 dias",
+      "technique": "Identificar infrações autuadas que geram pontos, emitir formulário oficial de indicação e notificar o motorista para colher assinatura antes do vencimento do prazo legal no Detran.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Consultar infrações autuadas que geram pontos na CNH",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Gerar formulário de indicação do condutor",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Colher assinatura do condutor e protocolar no órgão",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055802938-emze",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055802937",
+      "category": "Multas",
+      "title": "Acompanhamento de captura periódica de multas nos órgãos",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "7 dias",
+      "technique": "Varredura periódica no Detran, Renainf e prefeituras; levantar débitos com desconto de 20% pelo SNE e emitir comunicado com guia para o financeiro aprovar.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Consultar autuações no Detran e órgãos municipais",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Emitir guias com desconto de 20% via SNE",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Enviar comunicado ao financeiro do cliente com prazo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055802938-yk7b",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055802937",
+      "category": "Cronotacógrafo",
+      "title": "Verificação da validade de aferição dos tacógrafos",
+      "routineFrequency": "Mensal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "30 dias",
+      "technique": "Consultar certificados metrológicos no Inmetro; garantir agendamento do ensaio antes do vencimento do selo/disco.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Acessar portal cronotacografo.inmetro.gov.br",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Identificar caminhões com certificado vencendo em 20 dias",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Acionar posto credenciado e enviar guia de agendamento",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055802965-d5hh",
+      "stage": "A Fazer",
+      "company": "Logística & Cargas Brasil",
+      "companyId": "comp-2",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055802965-g79z",
+      "stage": "A Fazer",
+      "company": "Locadora Prime Motors",
+      "companyId": "comp-3",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055802965-4y7v",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055802937",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055897587-x5sa",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055897587",
+      "category": "Indicação de Condutor",
+      "title": "Verificação de multas pendentes de indicação dentro do prazo legal",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "7 dias",
+      "technique": "Identificar infrações autuadas que geram pontos, emitir formulário oficial de indicação e notificar o motorista para colher assinatura antes do vencimento do prazo legal no Detran.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Consultar infrações autuadas que geram pontos na CNH",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Gerar formulário de indicação do condutor",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Colher assinatura do condutor e protocolar no órgão",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055897587-uogj",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055897587",
+      "category": "Multas",
+      "title": "Acompanhamento de captura periódica de multas nos órgãos",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "7 dias",
+      "technique": "Varredura periódica no Detran, Renainf e prefeituras; levantar débitos com desconto de 20% pelo SNE e emitir comunicado com guia para o financeiro aprovar.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Consultar autuações no Detran e órgãos municipais",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Emitir guias com desconto de 20% via SNE",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Enviar comunicado ao financeiro do cliente com prazo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055897587-86l5",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055897587",
+      "category": "Cronotacógrafo",
+      "title": "Verificação da validade de aferição dos tacógrafos",
+      "routineFrequency": "Mensal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "30 dias",
+      "technique": "Consultar certificados metrológicos no Inmetro; garantir agendamento do ensaio antes do vencimento do selo/disco.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Acessar portal cronotacografo.inmetro.gov.br",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Identificar caminhões com certificado vencendo em 20 dias",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Acionar posto credenciado e enviar guia de agendamento",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055897606-q0em",
+      "stage": "A Fazer",
+      "company": "Logística & Cargas Brasil",
+      "companyId": "comp-2",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055897606-72gu",
+      "stage": "A Fazer",
+      "company": "Locadora Prime Motors",
+      "companyId": "comp-3",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055897606-wyph",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055802937",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789055897607-as3p",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055897587",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789056231569-m5tc",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789056231569",
+      "category": "Indicação de Condutor",
+      "title": "Verificação de multas pendentes de indicação dentro do prazo legal",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "7 dias",
+      "technique": "Identificar infrações autuadas que geram pontos, emitir formulário oficial de indicação e notificar o motorista para colher assinatura antes do vencimento do prazo legal no Detran.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Consultar infrações autuadas que geram pontos na CNH",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Gerar formulário de indicação do condutor",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Colher assinatura do condutor e protocolar no órgão",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789056231569-e0d0",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789056231569",
+      "category": "Multas",
+      "title": "Acompanhamento de captura periódica de multas nos órgãos",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "7 dias",
+      "technique": "Varredura periódica no Detran, Renainf e prefeituras; levantar débitos com desconto de 20% pelo SNE e emitir comunicado com guia para o financeiro aprovar.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Consultar autuações no Detran e órgãos municipais",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Emitir guias com desconto de 20% via SNE",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Enviar comunicado ao financeiro do cliente com prazo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789056231569-qq1t",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789056231569",
+      "category": "Cronotacógrafo",
+      "title": "Verificação da validade de aferição dos tacógrafos",
+      "routineFrequency": "Mensal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "30 dias",
+      "technique": "Consultar certificados metrológicos no Inmetro; garantir agendamento do ensaio antes do vencimento do selo/disco.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Acessar portal cronotacografo.inmetro.gov.br",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Identificar caminhões com certificado vencendo em 20 dias",
+          "done": false
+        },
+        {
+          "id": 3,
+          "text": "Acionar posto credenciado e enviar guia de agendamento",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789056231589-8xia",
+      "stage": "A Fazer",
+      "company": "Logística & Cargas Brasil",
+      "companyId": "comp-2",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789056231589-wj04",
+      "stage": "A Fazer",
+      "company": "Locadora Prime Motors",
+      "companyId": "comp-3",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789056231589-e2wp",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055802937",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789056231589-9pqo",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789055897587",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789056231589-a782",
+      "stage": "A Fazer",
+      "company": "Expresso RodoLog",
+      "companyId": "comp-1789056231569",
+      "category": "Multas",
+      "title": "Varredura Extraordinária de Multas no SNE",
+      "routineFrequency": "Semanal",
+      "responsible": "Felipe Gabriel",
+      "returnDeadline": "14/09 às 17h",
+      "technique": "Varredura geral preventiva para antecipação de descontos.",
+      "notes": "",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Levantamento no sistema",
+          "done": false
+        },
+        {
+          "id": 2,
+          "text": "Execução e protocolo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "card-1789507083086-rgqt",
+      "companyId": "comp-1",
+      "company": "Transportadora Rápido Sol",
+      "category": "Multas",
+      "title": "Reunião de hoje: João ficou de levantar as placas dos caminhões n...",
+      "stage": "Em Andamento",
+      "routineFrequency": "Avulso",
+      "responsible": "João",
+      "returnDeadlineText": "amanhã",
+      "returnDeadline": "2026-09-16",
+      "technique": "Extraído automaticamente do relato do operador.",
+      "notes": "Reunião de hoje: João ficou de levantar as placas dos caminhões novos. Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã. A cliente confirmou que manda os documentos da CNH até sexta-feira.",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Reunião de hoje: João ficou de levantar as placas dos caminhões n...",
+          "done": false
+        }
+      ],
+      "source": "ai_chat",
+      "sourceMessageId": "msg-1789507083072-nygq",
+      "confidence": 0.85,
+      "createdAt": "2026-09-15T21:18:03.086Z",
+      "history": [
+        {
+          "timestamp": "2026-09-15T21:18:03.086Z",
+          "action": "created_from_chat",
+          "note": "Atividade criada a partir da mensagem (msg-1789507083072-nygq)."
+        }
+      ]
+    },
+    {
+      "id": "card-1789507118329-es8f",
+      "companyId": "comp-1",
+      "company": "Transportadora Rápido Sol",
+      "category": "Documentação",
+      "title": "João ficou de levantar as placas dos caminhões novos",
+      "stage": "A Fazer",
+      "routineFrequency": "Avulso",
+      "responsible": "João",
+      "returnDeadlineText": "Não definido",
+      "returnDeadline": "Não definido",
+      "technique": "Extraído automaticamente do relato do operador.",
+      "notes": "Reunião de hoje: João ficou de levantar as placas dos caminhões novos",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "João ficou de levantar as placas dos caminhões novos",
+          "done": false
+        }
+      ],
+      "source": "ai_chat",
+      "sourceMessageId": "msg-1789507118323-f23h",
+      "confidence": 0.88,
+      "createdAt": "2026-09-15T21:18:38.329Z",
+      "history": [
+        {
+          "timestamp": "2026-09-15T21:18:38.329Z",
+          "action": "created_from_chat",
+          "note": "Atividade criada a partir da mensagem (msg-1789507118323-f23h)."
+        }
+      ]
+    },
+    {
+      "id": "card-1789507118329-ctxm",
+      "companyId": "comp-1",
+      "company": "Transportadora Rápido Sol",
+      "category": "Multas",
+      "title": "Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã",
+      "stage": "A Fazer",
+      "routineFrequency": "Avulso",
+      "responsible": "Felipe Gabriel",
+      "returnDeadlineText": "amanhã",
+      "returnDeadline": "2026-09-16",
+      "technique": "Extraído automaticamente do relato do operador.",
+      "notes": "Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã",
+      "checklist": [
+        {
+          "id": 1,
+          "text": "Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã",
+          "done": false
+        }
+      ],
+      "source": "ai_chat",
+      "sourceMessageId": "msg-1789507118323-f23h",
+      "confidence": 0.88,
+      "createdAt": "2026-09-15T21:18:38.329Z",
+      "history": [
+        {
+          "timestamp": "2026-09-15T21:18:38.329Z",
+          "action": "created_from_chat",
+          "note": "Atividade criada a partir da mensagem (msg-1789507118323-f23h)."
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1789507083072-nygq",
+      "companyId": "comp-1",
+      "sender": "user",
+      "content": "Reunião de hoje: João ficou de levantar as placas dos caminhões novos. Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã. A cliente confirmou que manda os documentos da CNH até sexta-feira.",
+      "type": "text",
+      "fileData": null,
+      "aiAnalysis": {
+        "summary": "Reunião de hoje: João ficou de levantar as placas dos caminhões novos. Eu preciso mandar as gui...",
+        "facts": [],
+        "activities": [
+          {
+            "title": "Reunião de hoje: João ficou de levantar as placas dos caminhões n...",
+            "category": "Multas",
+            "responsible": "João",
+            "stage": "A Fazer",
+            "deadlineText": "amanhã",
+            "deadline": "2026-09-16",
+            "confidence": 0.85,
+            "action": "create",
+            "technique": "Extraído automaticamente do relato do operador.",
+            "notes": "Reunião de hoje: João ficou de levantar as placas dos caminhões novos. Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã. A cliente confirmou que manda os documentos da CNH até sexta-feira."
+          }
+        ],
+        "updates": [],
+        "companySummaryUpdate": null,
+        "status": "applied",
+        "appliedAt": "2026-09-15T21:18:03.086Z"
+      },
+      "timestamp": "2026-09-15T21:18:03.072Z"
+    },
+    {
+      "id": "msg-1789507118323-f23h",
+      "companyId": "comp-1",
+      "sender": "user",
+      "content": "Reunião de hoje: João ficou de levantar as placas dos caminhões novos. Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã. A cliente confirmou que manda os documentos da CNH até sexta-feira.",
+      "type": "text",
+      "fileData": null,
+      "aiAnalysis": {
+        "summary": "Reunião de hoje: João ficou de levantar as placas dos caminhões novos. Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã",
+        "facts": [
+          "A cliente confirmou que manda os documentos da CNH até sexta-feira"
+        ],
+        "activities": [
+          {
+            "title": "João ficou de levantar as placas dos caminhões novos",
+            "category": "Documentação",
+            "responsible": "João",
+            "stage": "A Fazer",
+            "deadlineText": "Não definido",
+            "deadline": null,
+            "confidence": 0.88,
+            "action": "create",
+            "technique": "Extraído automaticamente do relato do operador.",
+            "notes": "Reunião de hoje: João ficou de levantar as placas dos caminhões novos"
+          },
+          {
+            "title": "Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã",
+            "category": "Multas",
+            "responsible": "Felipe Gabriel",
+            "stage": "A Fazer",
+            "deadlineText": "amanhã",
+            "deadline": "2026-09-16",
+            "confidence": 0.88,
+            "action": "create",
+            "technique": "Extraído automaticamente do relato do operador.",
+            "notes": "Eu preciso mandar as guias com desconto SNE para o financeiro aprovar até amanhã"
+          }
+        ],
+        "updates": [],
+        "companySummaryUpdate": null,
+        "status": "applied",
+        "appliedAt": "2026-09-15T21:18:38.329Z"
+      },
+      "timestamp": "2026-09-15T21:18:38.323Z"
+    }
+  ]
+}

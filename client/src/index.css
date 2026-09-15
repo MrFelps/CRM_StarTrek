@@ -2,62 +2,95 @@
 @tailwind components;
 @tailwind utilities;
 
-/* FUNDO FOSCO TRANSLÚCIDO CINZA DARK (SEM AZULADO) */
-.frosted-window {
-  background: rgba(20, 20, 22, 0.94);
-  backdrop-filter: blur(40px) saturate(110%);
-  -webkit-backdrop-filter: blur(40px) saturate(110%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f5f7fb;
+    color: #1e293b;
+  }
 }
 
-/* CARDS EM TONS DE CINZA COM DETALHES ESBRANQUIÇADOS */
-.minimal-card {
-  background: rgba(36, 36, 40, 0.65);
-  backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+/* Sidebar Styling */
+.sidebar-bg {
+  background-color: #131625;
+}
+
+.sidebar-item-active {
+  background-color: #232740;
+  color: #ffffff;
+}
+
+.sidebar-item-hover:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+}
+
+/* Cards Kanban Estilo SwiftHub */
+.swifthub-card {
+  background: #ffffff;
+  border: 1px solid #e8ecf4;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.04), 0 1px 2px rgba(16, 24, 40, 0.02);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   cursor: grab;
 }
 
-.minimal-card:hover {
-  background: rgba(48, 48, 54, 0.85);
-  border-color: rgba(255, 255, 255, 0.18);
+.swifthub-card:hover {
+  box-shadow: 0 10px 25px -5px rgba(20, 24, 45, 0.08), 0 8px 10px -6px rgba(20, 24, 45, 0.04);
+  border-color: #cbd5e1;
+  transform: translateY(-2px);
 }
 
-.minimal-card:active {
+.swifthub-card:active {
   cursor: grabbing;
 }
 
-/* ÁREA DE SOLTURA DO DRAG AND DROP */
+/* Área de soltura do drag and drop */
 .drop-zone {
-  transition: background 0.2s ease, border-color 0.2s ease;
-  min-height: 80px;
+  transition: all 0.2s ease;
+  min-height: 120px;
 }
 
 .drop-zone.drag-over {
-  background: rgba(255, 255, 255, 0.06) !important;
-  border-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: #eef2ff !important;
+  border-color: #6366f1 !important;
   border-style: dashed !important;
 }
 
-/* CARD SENDO ARRASTADO */
 .dragging {
-  opacity: 0.35;
+  opacity: 0.4;
   transform: scale(0.98);
 }
 
+/* Scrollbars finas e elegantes */
 .custom-scrollbar::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 6px;
+  height: 6px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-track {
   background: transparent;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.12);
+  background: #cbd5e1;
+  border-radius: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Scrollbar para a sidebar escura */
+.dark-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 4px;
 }
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.22);
+
+.dark-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
 }

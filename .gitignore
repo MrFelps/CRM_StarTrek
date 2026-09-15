@@ -24,3 +24,6 @@ desktop.ini
 
 # Gemini/Antigravity local
 .gemini/
+powershell.cmd
+debug_args.txt
+

@@ -1,1 +1,0 @@
-ARGS: -Command "Write-Output \"HELLO_WORLD\"" 

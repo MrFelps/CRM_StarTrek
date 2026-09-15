@@ -1,0 +1,4 @@
+FROM decolua/9router:latest
+ENV PORT=20128
+ENV HOST=0.0.0.0
+EXPOSE 20128

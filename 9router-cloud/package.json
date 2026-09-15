@@ -1,0 +1,10 @@
+﻿{
+  "name": "9router-cloud",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx 9router start --host 0.0.0.0 --port 20128"
+  },
+  "dependencies": {
+    "9router": "latest"
+  }
+}
